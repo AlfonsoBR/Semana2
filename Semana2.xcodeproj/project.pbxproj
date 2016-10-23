@@ -24,9 +24,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2858AED21DBD1D31008C169A /* Semana2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Semana2.app; path = "/Users/Abrueda/Documents/Programacion/iOS/Lesson1&2/Practica/Semana2/build/Debug-iphoneos/Semana2.app"; sourceTree = "<absolute>"; };
-		2858AEE61DBD1D31008C169A /* Semana2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Semana2Tests.xctest; path = "/Users/Abrueda/Documents/Programacion/iOS/Lesson1&2/Practica/Semana2/build/Debug-iphoneos/Semana2Tests.xctest"; sourceTree = "<absolute>"; };
-		2858AEF11DBD1D31008C169A /* Semana2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Semana2UITests.xctest; path = "/Users/Abrueda/Documents/Programacion/iOS/Lesson1&2/Practica/Semana2/build/Debug-iphoneos/Semana2UITests.xctest"; sourceTree = "<absolute>"; };
+		284439411DBD20E90009C7FF /* Semana2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Semana2.app; path = "/Users/Abrueda/Documents/Programacion/iOS/Lesson1&2/Practica/Semana2/build/Debug-iphoneos/Semana2.app"; sourceTree = "<absolute>"; };
+		284439421DBD20E90009C7FF /* Semana2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Semana2Tests.xctest; path = "/Users/Abrueda/Documents/Programacion/iOS/Lesson1&2/Practica/Semana2/build/Debug-iphoneos/Semana2Tests.xctest"; sourceTree = "<absolute>"; };
+		284439431DBD20E90009C7FF /* Semana2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Semana2UITests.xctest; path = "/Users/Abrueda/Documents/Programacion/iOS/Lesson1&2/Practica/Semana2/build/Debug-iphoneos/Semana2UITests.xctest"; sourceTree = "<absolute>"; };
 		2858AF031DBD1D86008C169A /* juegoDeMemoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = juegoDeMemoria.playground; path = ../juegoDeMemoria.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,7 +79,7 @@
 			);
 			name = Semana2;
 			productName = Semana2;
-			productReference = 2858AED21DBD1D31008C169A /* Semana2.app */;
+			productReference = 284439411DBD20E90009C7FF /* Semana2.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2858AEE51DBD1D31008C169A /* Semana2Tests */ = {
@@ -97,7 +97,7 @@
 			);
 			name = Semana2Tests;
 			productName = Semana2Tests;
-			productReference = 2858AEE61DBD1D31008C169A /* Semana2Tests.xctest */;
+			productReference = 284439421DBD20E90009C7FF /* Semana2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		2858AEF01DBD1D31008C169A /* Semana2UITests */ = {
@@ -115,7 +115,7 @@
 			);
 			name = Semana2UITests;
 			productName = Semana2UITests;
-			productReference = 2858AEF11DBD1D31008C169A /* Semana2UITests.xctest */;
+			productReference = 284439431DBD20E90009C7FF /* Semana2UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -398,6 +398,7 @@
 				2858AEFC1DBD1D31008C169A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2858AEFD1DBD1D31008C169A /* Build configuration list for PBXNativeTarget "Semana2Tests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +407,7 @@
 				2858AEFF1DBD1D31008C169A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2858AF001DBD1D31008C169A /* Build configuration list for PBXNativeTarget "Semana2UITests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +416,7 @@
 				2858AF021DBD1D31008C169A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
