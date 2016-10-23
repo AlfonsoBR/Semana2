@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		284439481DBD27800009C7FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 284439471DBD27800009C7FF /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		2858AEE71DBD1D31008C169A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		284439411DBD20E90009C7FF /* Semana2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Semana2.app; path = "/Users/Abrueda/Documents/Programacion/iOS/Lesson1&2/Practica/Semana2/build/Debug-iphoneos/Semana2.app"; sourceTree = "<absolute>"; };
-		284439421DBD20E90009C7FF /* Semana2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Semana2Tests.xctest; path = "/Users/Abrueda/Documents/Programacion/iOS/Lesson1&2/Practica/Semana2/build/Debug-iphoneos/Semana2Tests.xctest"; sourceTree = "<absolute>"; };
-		284439431DBD20E90009C7FF /* Semana2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Semana2UITests.xctest; path = "/Users/Abrueda/Documents/Programacion/iOS/Lesson1&2/Practica/Semana2/build/Debug-iphoneos/Semana2UITests.xctest"; sourceTree = "<absolute>"; };
+		284439441DBD27600009C7FF /* Semana2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Semana2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		284439451DBD27600009C7FF /* Semana2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Semana2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		284439461DBD27600009C7FF /* Semana2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Semana2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		284439471DBD27800009C7FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2858AF031DBD1D86008C169A /* juegoDeMemoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = juegoDeMemoria.playground; path = ../juegoDeMemoria.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +63,11 @@
 		2858AEC91DBD1D31008C169A = {
 			isa = PBXGroup;
 			children = (
+				284439471DBD27800009C7FF /* Default-568h@2x.png */,
 				2858AF031DBD1D86008C169A /* juegoDeMemoria.playground */,
+				284439441DBD27600009C7FF /* Semana2.app */,
+				284439451DBD27600009C7FF /* Semana2Tests.xctest */,
+				284439461DBD27600009C7FF /* Semana2UITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,7 +88,7 @@
 			);
 			name = Semana2;
 			productName = Semana2;
-			productReference = 284439411DBD20E90009C7FF /* Semana2.app */;
+			productReference = 284439441DBD27600009C7FF /* Semana2.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2858AEE51DBD1D31008C169A /* Semana2Tests */ = {
@@ -97,7 +106,7 @@
 			);
 			name = Semana2Tests;
 			productName = Semana2Tests;
-			productReference = 284439421DBD20E90009C7FF /* Semana2Tests.xctest */;
+			productReference = 284439451DBD27600009C7FF /* Semana2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		2858AEF01DBD1D31008C169A /* Semana2UITests */ = {
@@ -115,7 +124,7 @@
 			);
 			name = Semana2UITests;
 			productName = Semana2UITests;
-			productReference = 284439431DBD20E90009C7FF /* Semana2UITests.xctest */;
+			productReference = 284439461DBD27600009C7FF /* Semana2UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -169,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				284439481DBD27800009C7FF /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +329,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blackpata.Semana2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -330,6 +341,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blackpata.Semana2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
