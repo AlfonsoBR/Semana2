@@ -6,16 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		2858AED61DBD1D31008C169A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858AED51DBD1D31008C169A /* AppDelegate.swift */; };
-		2858AED81DBD1D31008C169A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858AED71DBD1D31008C169A /* ViewController.swift */; };
-		2858AEDB1DBD1D31008C169A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2858AED91DBD1D31008C169A /* Main.storyboard */; };
-		2858AEDD1DBD1D31008C169A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2858AEDC1DBD1D31008C169A /* Assets.xcassets */; };
-		2858AEE01DBD1D31008C169A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2858AEDE1DBD1D31008C169A /* LaunchScreen.storyboard */; };
-		2858AEEB1DBD1D31008C169A /* Semana2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858AEEA1DBD1D31008C169A /* Semana2Tests.swift */; };
-		2858AEF61DBD1D31008C169A /* Semana2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2858AEF51DBD1D31008C169A /* Semana2UITests.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		2858AEE71DBD1D31008C169A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -34,19 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2858AED21DBD1D31008C169A /* Semana2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Semana2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2858AED51DBD1D31008C169A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2858AED71DBD1D31008C169A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2858AEDA1DBD1D31008C169A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2858AEDC1DBD1D31008C169A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2858AEDF1DBD1D31008C169A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2858AEE11DBD1D31008C169A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2858AEE61DBD1D31008C169A /* Semana2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Semana2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2858AEEA1DBD1D31008C169A /* Semana2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semana2Tests.swift; sourceTree = "<group>"; };
-		2858AEEC1DBD1D31008C169A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2858AEF11DBD1D31008C169A /* Semana2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Semana2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2858AEF51DBD1D31008C169A /* Semana2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semana2UITests.swift; sourceTree = "<group>"; };
-		2858AEF71DBD1D31008C169A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2858AED21DBD1D31008C169A /* Semana2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Semana2.app; path = "/Users/Abrueda/Documents/Programacion/iOS/Lesson1&2/Practica/Semana2/build/Debug-iphoneos/Semana2.app"; sourceTree = "<absolute>"; };
+		2858AEE61DBD1D31008C169A /* Semana2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Semana2Tests.xctest; path = "/Users/Abrueda/Documents/Programacion/iOS/Lesson1&2/Practica/Semana2/build/Debug-iphoneos/Semana2Tests.xctest"; sourceTree = "<absolute>"; };
+		2858AEF11DBD1D31008C169A /* Semana2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Semana2UITests.xctest; path = "/Users/Abrueda/Documents/Programacion/iOS/Lesson1&2/Practica/Semana2/build/Debug-iphoneos/Semana2UITests.xctest"; sourceTree = "<absolute>"; };
+		2858AF031DBD1D86008C169A /* juegoDeMemoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = juegoDeMemoria.playground; path = ../juegoDeMemoria.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,52 +58,8 @@
 		2858AEC91DBD1D31008C169A = {
 			isa = PBXGroup;
 			children = (
-				2858AED41DBD1D31008C169A /* Semana2 */,
-				2858AEE91DBD1D31008C169A /* Semana2Tests */,
-				2858AEF41DBD1D31008C169A /* Semana2UITests */,
-				2858AED31DBD1D31008C169A /* Products */,
+				2858AF031DBD1D86008C169A /* juegoDeMemoria.playground */,
 			);
-			sourceTree = "<group>";
-		};
-		2858AED31DBD1D31008C169A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2858AED21DBD1D31008C169A /* Semana2.app */,
-				2858AEE61DBD1D31008C169A /* Semana2Tests.xctest */,
-				2858AEF11DBD1D31008C169A /* Semana2UITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2858AED41DBD1D31008C169A /* Semana2 */ = {
-			isa = PBXGroup;
-			children = (
-				2858AED51DBD1D31008C169A /* AppDelegate.swift */,
-				2858AED71DBD1D31008C169A /* ViewController.swift */,
-				2858AED91DBD1D31008C169A /* Main.storyboard */,
-				2858AEDC1DBD1D31008C169A /* Assets.xcassets */,
-				2858AEDE1DBD1D31008C169A /* LaunchScreen.storyboard */,
-				2858AEE11DBD1D31008C169A /* Info.plist */,
-			);
-			path = Semana2;
-			sourceTree = "<group>";
-		};
-		2858AEE91DBD1D31008C169A /* Semana2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				2858AEEA1DBD1D31008C169A /* Semana2Tests.swift */,
-				2858AEEC1DBD1D31008C169A /* Info.plist */,
-			);
-			path = Semana2Tests;
-			sourceTree = "<group>";
-		};
-		2858AEF41DBD1D31008C169A /* Semana2UITests */ = {
-			isa = PBXGroup;
-			children = (
-				2858AEF51DBD1D31008C169A /* Semana2UITests.swift */,
-				2858AEF71DBD1D31008C169A /* Info.plist */,
-			);
-			path = Semana2UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,7 +153,7 @@
 				Base,
 			);
 			mainGroup = 2858AEC91DBD1D31008C169A;
-			productRefGroup = 2858AED31DBD1D31008C169A /* Products */;
+			productRefGroup = 2858AEC91DBD1D31008C169A;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -232,9 +169,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2858AEE01DBD1D31008C169A /* LaunchScreen.storyboard in Resources */,
-				2858AEDD1DBD1D31008C169A /* Assets.xcassets in Resources */,
-				2858AEDB1DBD1D31008C169A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +193,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2858AED81DBD1D31008C169A /* ViewController.swift in Sources */,
-				2858AED61DBD1D31008C169A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +200,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2858AEEB1DBD1D31008C169A /* Semana2Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +207,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2858AEF61DBD1D31008C169A /* Semana2UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +224,6 @@
 			targetProxy = 2858AEF21DBD1D31008C169A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2858AED91DBD1D31008C169A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2858AEDA1DBD1D31008C169A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2858AEDE1DBD1D31008C169A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2858AEDF1DBD1D31008C169A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2858AEF81DBD1D31008C169A /* Debug */ = {
